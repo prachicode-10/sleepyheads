@@ -99,7 +99,7 @@ const CartDrawer = ({ isOpen, onClose }) => {
                                                 </button>
                                             </div>
                                             <p className="text-xs text-chocolate/40 mb-2">{item.tag}</p>
-                                            <span className="font-black text-chocolate">${item.price.toFixed(2)}</span>
+                                            <span className="font-black text-chocolate">₹{item.price}</span>
                                         </div>
                                     </motion.div>
                                 ))
@@ -110,7 +110,7 @@ const CartDrawer = ({ isOpen, onClose }) => {
                             <div className="p-8 bg-white border-t border-chocolate/5 space-y-6">
                                 <div className="flex justify-between items-end">
                                     <span className="text-chocolate/40 font-bold uppercase tracking-widest text-xs">Total Investment</span>
-                                    <span className="text-4xl font-black text-chocolate">${total.toFixed(2)}</span>
+                                    <span className="text-4xl font-black text-chocolate">₹{total}</span>
                                 </div>
 
                                 <div className="space-y-3">

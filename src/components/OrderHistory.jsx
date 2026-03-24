@@ -98,7 +98,7 @@ const OrderHistory = ({ isOpen, onClose }) => {
 
                                         <div className="mt-8 pt-6 border-t border-chocolate/5 flex justify-between items-center">
                                             <span className="font-black text-chocolate-light uppercase tracking-widest text-[10px]">Total Investment</span>
-                                            <span className="text-2xl font-black text-chocolate">${(order.total_amount || 0).toFixed(2)}</span>
+                                            <span className="text-2xl font-black text-chocolate">₹{order.total_amount || 0}</span>
                                         </div>
                                     </div>
                                 ))

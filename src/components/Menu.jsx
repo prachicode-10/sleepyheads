@@ -9,25 +9,25 @@ const milkshakes = [
         id: 1,
         name: 'Vanilla Dream',
         description: 'Creamy Madagascar vanilla beans with a touch of honey.',
-        price: 6.50,
+        price: 249,
         color: 'bg-cream-dark',
-        image: '/images/hero.png', // Reusing hero for vanilla as it looks like a premium base
+        image: '/images/hero.png',
         tag: 'Classic'
     },
     {
         id: 2,
         name: 'Choco Cloud',
         description: 'Deep Belgian chocolate with whipped marshmallow fluff.',
-        price: 7.25,
+        price: 299,
         color: 'bg-chocolate-light',
-        image: '/images/hero.png', // Will use hero for now or generated ones
+        image: '/images/hero.png',
         tag: 'Popular'
     },
     {
         id: 3,
         name: 'Berry Blush',
         description: 'Fresh field strawberries blended to pink perfection.',
-        price: 6.95,
+        price: 279,
         color: 'bg-strawberry',
         image: '/images/strawberry.png',
         tag: 'Fresh'
@@ -36,7 +36,7 @@ const milkshakes = [
         id: 4,
         name: 'Minty Mist',
         description: 'Cool peppermint leaves with dark chocolate chips.',
-        price: 7.50,
+        price: 319,
         color: 'bg-mint',
         image: '/images/mint.png',
         tag: 'Cool'
@@ -45,8 +45,8 @@ const milkshakes = [
         id: 5,
         name: 'Caramel Gold',
         description: 'Rich salted caramel with gold-tinted swirls.',
-        price: 8.00,
-        color: 'bg-lavender', // Changed to match caramel vibe or kept as is
+        price: 349,
+        color: 'bg-lavender',
         image: '/images/caramel.png',
         tag: 'Premium'
     },
@@ -54,7 +54,7 @@ const milkshakes = [
         id: 6,
         name: 'Cookie Crumble',
         description: 'Buttery cookies crushed into rich velvet cream.',
-        price: 7.75,
+        price: 329,
         color: 'bg-chocolate-dark',
         image: '/images/hero.png',
         tag: 'Crunchy'
@@ -100,7 +100,7 @@ const MenuCard = ({ item }) => {
                 <div className="flex items-center justify-between mt-auto">
                     <div className="flex flex-col">
                         <span className="text-[10px] font-black text-chocolate/30 tracking-widest uppercase">Investment</span>
-                        <span className="text-3xl font-black text-chocolate">${item.price.toFixed(2)}</span>
+                        <span className="text-3xl font-black text-chocolate">₹{item.price}</span>
                     </div>
                     <motion.button
                         whileHover={{ scale: 1.1 }}

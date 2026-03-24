@@ -13,7 +13,7 @@ const specials = [
         color: "bg-chocolate/5",
         textColor: "text-chocolate",
         image: "/images/caramel.png",
-        price: 9.50
+        price: 399
     },
     {
         id: 102,
@@ -23,7 +23,7 @@ const specials = [
         color: "bg-strawberry/5",
         textColor: "text-chocolate",
         image: "/images/strawberry.png",
-        price: 8.95
+        price: 349
     },
     {
         id: 103,
@@ -33,7 +33,7 @@ const specials = [
         color: "bg-mint/5",
         textColor: "text-chocolate",
         image: "/images/mint.png",
-        price: 9.25
+        price: 379
     }
 ]
 
@@ -130,7 +130,7 @@ const SpecialFlavors = () => {
                                         }}
                                         className="px-12 py-5 bg-chocolate text-white rounded-3xl font-black text-xl shadow-2xl hover:bg-strawberry transition-colors"
                                     >
-                                        Add to Cart • ${specials[index].price.toFixed(2)}
+                                        Add to Cart • ₹{specials[index].price}
                                     </motion.button>
                                     <button
                                         onClick={() => addToast("Ingredients coming soon!", "info")}
