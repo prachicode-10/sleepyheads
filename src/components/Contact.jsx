@@ -42,7 +42,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <p className="font-black text-xl tracking-tight">Our Flagship Store</p>
-                                        <p className="text-white/50 text-base">123 Cloud Lane, Fluffy Valley, CA</p>
+                                        <p className="text-white/50 text-base">123 Esplanade lane, Newtown, Kolkata</p>
                                     </div>
                                 </motion.div>
                                 <motion.div whileHover={{ x: 10 }} className="flex gap-8 items-center cursor-default">
@@ -51,7 +51,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <p className="font-black text-xl tracking-tight">Drift a Line</p>
-                                        <p className="text-white/50 text-base">+1 (555) 987-SLEEPY</p>
+                                        <p className="text-white/50 text-base">+91 987565620 -SLEEPY</p>
                                     </div>
                                 </motion.div>
                                 <motion.div whileHover={{ x: 10 }} className="flex gap-8 items-center cursor-default">
