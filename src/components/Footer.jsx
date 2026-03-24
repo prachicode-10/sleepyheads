@@ -92,7 +92,7 @@ const Footer = () => {
                     </div>
 
                     <div className="flex items-center gap-2 text-chocolate/40 text-sm font-bold">
-                        Made with <Heart size={14} className="text-strawberry fill-strawberry" /> by Sleepyheads team
+                        Made with <Heart size={14} className="text-strawberry fill-strawberry" /> by Prachi
                     </div>
 
                     <motion.button
