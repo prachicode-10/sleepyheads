@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-rounded: "Outfit", ui-sans-serif, system-ui, sans-serif;
+
+  --color-cream-light: #FFFDF5;
+  --color-cream: #F5F2E8;
+  --color-cream-dark: #E8E1D0;
+
+  --color-chocolate-light: #8D6E63;
+  --color-chocolate: #5D4037;
+  --color-chocolate-dark: #3E2723;
+
+  --color-strawberry-light: #FFEBEE;
+  --color-strawberry: #FFCDD2;
+  --color-strawberry-dark: #EF9A9A;
+
+  --color-mint-light: #E8F5E9;
+  --color-mint: #C8E6C9;
+  --color-mint-dark: #A5D6A7;
+
+  --color-lavender-light: #F3E5F5;
+  --color-lavender: #E1BEE7;
+  --color-lavender-dark: #CE93D8;
+}
+
+/* Fallback variables for safety */
+:root {
+  --cream-light: #FFFDF5;
+  --chocolate: #5D4037;
+  --strawberry: #FFCDD2;
+  background-color: var(--cream-light);
+  color: var(--chocolate);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  background-color: #FFFDF5;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Base Utility Classes */
+.bg-cream {
+  background-color: #F5F2E8;
+}
+
+.bg-cream-light {
+  background-color: #FFFDF5;
+}
+
+.text-chocolate {
+  color: #5D4037;
+}
+
+.text-strawberry {
+  color: #FFCDD2;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #FFCDD2;
+  border-radius: 10px;
+}
